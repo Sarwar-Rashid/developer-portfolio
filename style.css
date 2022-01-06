@@ -1,0 +1,199 @@
+body{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.first-section {
+    display: flex;
+}
+.half-width {
+    width: 40%;
+    margin: auto;
+}
+.half-width h1 {
+    font-size: 55px;
+    border-left: 7px solid #ffc400;
+}
+.pink {
+    color: #f7941d;
+}
+.half-width img {
+    width: 93%;
+    margin: auto;
+    display: block;
+}
+.half-width h1 {
+    font-size: 60px;
+    border-left: 5px solid chocolate;
+}
+.half-width p {
+    font-size: 17px;
+}
+.half-width a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: whitesmoke;
+    background: #092251;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.container{
+    display: flex;
+}
+.second-section h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 40px;
+}
+.mission {
+    width: 30%;
+    background: #b006e408;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding: 0 15px;
+}
+.mission img {
+    width: 35%;
+}
+.vission {
+    width: 35%;
+    background: #78e9c385;
+    border-radius: 10px;
+    margin-right: 3%;
+    padding: 14px;
+}
+.vission img {
+    width: 28%;
+}
+.goal {
+    width: 30%;
+    background: #f6ca0554;
+    padding: 0 18px;
+    border-radius: 10px;
+}
+.goal img {
+    width: 36%;
+}
+.second-section #pink {
+    color: #f7941d;
+}
+h3 {
+    font-weight: 914;
+    font-size: 26px;
+}
+.third-section {
+    display: flex;
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 157px;
+    background-position: left,bottom;
+}
+.four-section {
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 168px;
+    background-position: right bottom;
+    margin-right: 194px;
+    margin-bottom: 63px;
+}
+.image img {
+    width: 73%;
+    margin-top: 65px;
+}
+.right-side {
+    margin-right: 266px;
+    margin-top: 112px;
+}
+.right-side {
+    margin-right: 266px;
+    margin-top: 112px;
+}
+.right-side h1 {
+    font-size: 45px;
+}
+.right-side a {
+    text-decoration: none;
+    background: #092251;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:azure;
+    font-weight: 700;
+}
+#orange{
+    color:#f7941d;
+}
+.left-side h1 {
+    font-size: 50px;
+    color: orange;
+}
+.right-side2 img {
+    width: 58%;
+    padding: 0 20px;
+    margin-left: 209px;
+}
+.left-side a {
+    text-decoration: none;
+    color: whitesmoke;
+    background: #092251;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.achievemnet-contact{
+    padding: 1% 7%;
+    background-color: #39a4ac;
+    color: white;
+}
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+}
+.contact button{
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
+    width: 100px;
+}
+.contact-links{
+    text-align: center;
+}
+.media-buttons .btn{
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: gray;
+}
+.achievemnet-contact::after{
+    clear: both;
+    display: table;
+    content: '';
+ }
+ footer {
+    background: black;
+    color: pink;
+    text-align: center;
+}
+
